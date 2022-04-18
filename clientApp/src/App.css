@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+
+.shoppingCartView {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+}
+.shoppingCartView h1 {
+    text-align: center;
+}
+#shoppingCartTable{
+    text-align: left;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    width: 80%;
+    min-width: 250px;
+}
+
+#shoppingCartTable td {
+    border-top: 1px solid lightgrey;
+    padding: 2px;
+}
+
+#itemName:hover {
+    background-color: rgba(240, 128, 128, 0.199);
+}
+
+#totalPrice td{
+    border-top: 1px solid lightcoral;
+}
+
+.payment {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paymentbuttons {
+    width: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 100px;
+
+}
